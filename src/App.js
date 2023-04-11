@@ -47,7 +47,7 @@ function App() {
             <header className="App-header">
                 {!!message && <p className="message">{message}</p>}
                 <img src={cardNames[nextIndex] || IMAGES.backCard} className="card-image" alt="card"
-                    onClick={handleNext} loading="lazy" />
+                    onClick={handleNext} />
                 <div className="mt-30">
                     <button className="btn" onClick={handleShuffle}>Shuffle</button>
                     <button className="btn ml-10" onClick={handleReset}>Reset</button>
