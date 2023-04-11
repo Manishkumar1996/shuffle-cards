@@ -1,14 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 .App {
     text-align: center;
 }
 
-.App-logo {
-    height: 350px;
+.card-image {
+    height: 60vh;
 }
 
 .App-header {
     position: relative;
-    padding-top: 150px;
+    padding-top: 100px;
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
@@ -58,7 +62,8 @@
 
 .message {
     position: absolute;
-    top: 70px;
+    top: 50px;
     color: white;
     font-size: 20px;
+    margin: 0;
 }
